@@ -1,0 +1,7 @@
+{
+  "name": "devcontainer-manager",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
+  "features": {},
+  "workspaceMount": "source=repos,target=/repos,type=volume",
+  "workspaceFolder": "/repos"
+}
